@@ -1,4 +1,4 @@
-// swift-tools-version:5.7
+// swift-tools-version:5.9
 
 import PackageDescription
 
@@ -11,8 +11,8 @@ let package = Package(
     .library(name: "SincereAuthMiddleware", targets: ["SincereAuthMiddleware"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/vapor/vapor.git", from: "4.65.1"),
-    .package(url: "https://github.com/vapor/jwt.git", from: "4.2.1"),
+    .package(url: "https://github.com/vapor/vapor.git", from: "4.106.0"),
+    .package(url: "https://github.com/vapor/jwt.git", from: "4.2.2"),
   ],
   targets: [
 
